@@ -46,6 +46,9 @@ nav ul {
   display: flex;
   gap: 3rem;
 }
+#ham-menu {
+  z-index: 15;
+}
 .menu.sticky {
   border-bottom: 1px solid rgba(255, 255, 255, 0.082);
   color: #fff;
@@ -92,9 +95,6 @@ nav ul a:hover {
   color: rgba(245, 245, 245, 0.856);
   text-align: justify;
   justify-content: center;
-}
-#ham-menu {
-  z-index: 15;
 }
 .parte-texto p h1 {
   font-weight: 200;
@@ -183,6 +183,7 @@ nav ul.active {
     top: 0;
   }
 }
+
 @media only screen and (max-width: 991px) {
   html {
     font-size: 56.25%;
