@@ -180,7 +180,6 @@ nav ul.active {
     top: 0;
   }
 }
-
 @media only screen and (max-width: 991px) {
   html {
     font-size: 56.25%;
@@ -204,12 +203,12 @@ nav ul.active {
     font-size: 3.2rem;
   }
   nav ul {
-    background-color: rgba(0, 0, 0, 0.603);
+    background-color: rgba(0, 0, 0, 0.767);
     position: fixed;
     left: -100vw;
-    top: 73.6px;
+    top: 0px;
     width: 100vw;
-    height: calc(100vh - 73.6px);
+    height: calc(110vh - 73.6px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -227,7 +226,7 @@ nav ul.active {
     padding: 2rem 3rem;
   }
   nav ul {
-    top: 65.18px;
-    height: calc(100vh - 65.18px);
+    top: 0px;
+    height: calc(110vh - 65.18px);
   }
 }
