@@ -93,6 +93,9 @@ nav ul a:hover {
   text-align: justify;
   justify-content: center;
 }
+#ham-menu {
+  z-index: 15;
+}
 .parte-texto p h1 {
   font-weight: 200;
   font-family: sans-serif;
